@@ -1,0 +1,7 @@
+Explanation of Makefile:
+ * CC = gcc: Sets the compiler to GCC.
+ * CFLAGS = -Wall -Wextra: Sets compiler flags for warnings.
+ * all: main: Defines the default target, which builds main.
+ * main: main.c: Specifies that main depends on main.c.
+ * $(CC) $(CFLAGS) main.c -o main: Compiles main.c into an executable named main.
+ * clean: rm -f main: Defines a target to remove the executable.
